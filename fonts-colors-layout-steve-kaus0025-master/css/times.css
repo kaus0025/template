@@ -1,0 +1,163 @@
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+*,
+*::after,
+*::before{
+    padding:0;
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro',"Lucida Sans",serif;
+    }
+h1{
+font-size:2.827em;  
+font-family:'Source Sans Pro',cursive,serif; 
+}
+
+h2,h3,h4{
+font-family:'Source Sans Pro',cursive,serif; 
+font-size:1.999em;
+}
+
+ p{ 
+font-size: 1.414em;
+padding:10;
+line-height: normal;
+}
+
+.container{
+display:flex;
+flex-direction: column;
+max-width: 1500px;
+margin: 1rem auto;
+background-color:hsl(183, 100%, 95%);
+}
+.subnav{  
+display:flex;    
+flex-direction:row-reverse;
+background-color:hsl(247, 57%, 59%);
+font:'sans-serif';
+font-size:1em; 
+}
+.subnav a{
+background-color: white;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 50px;
+font-size: 15px;
+    
+}
+.mainnav{
+list-style: none;
+margin: 0 2px;
+padding: 0;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+    background-color:hsl(247, 57%, 59%);
+
+}
+
+
+.mainnav a{
+
+color:hsl(247, 80%, 97%);
+}
+.mainnav a:hover{
+
+color:hsl(247, 80%, 13%);
+}
+
+
+.masthead{
+text-align: center;
+    
+}
+.times-logo{
+    
+}
+.masthead h1{
+font-size: 2.827em;
+}
+.content:{
+font-size:1.414em;
+font-family: sans-serif;
+padding:1rem 2rem;
+margin: 0 2rem;
+}
+.content .story{
+    
+}
+.story.lead-story{
+color:hsl(247, 80%, 13%);
+
+    
+}
+h1.story-title{
+font-size: 1.999em;
+font-family:serif;
+}
+.story img{
+    align-content: center;
+padding:0;
+float:right;
+margin-right:2rem;
+margin-bottom: 1rem;
+
+}
+.story p{
+font-size: 1.414em;
+
+}
+
+
+
+.story blockquote {
+font-size: 1.414em;
+width:50%;
+margin:15px auto;
+font-family:'Source Sans Pro',cursive,serif;
+font-style:italic;
+color:hsl(0, 100%, 3%);
+padding:1.2em 30px 1.2em 75px;
+border-left:7px solid #78C0A8 ;
+line-height:1;
+position:center;
+background:#EDEDED;
+quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+font-family:sans-serif;
+font-size:4em;
+position: absolute;
+left: 10px;
+top:-10px;
+  
+}
+.story blockquote::after{
+  content: '';
+    content: close-quote;
+}
+.story p.byline{
+padding:
+border-bottom: 1px dotted black;
+}
+p.byline span.author{
+font-size:1em;
+font:serif;  
+}
+p.byline span.pub{
+font-size:1em;
+font-style:serif;    
+}
+.foot{
+   font-family:'Source Sans Pro',"Lucida Sans",serif; 
+}
+.foot p{
+font-size:0.707em;
+line-height: 1.6 rem;
+font-family:'Source Sans Pro',"Lucida Sans",serif;
+}
